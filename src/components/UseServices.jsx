@@ -4,12 +4,12 @@ import { FaUserPlus, FaTools, FaSmile, FaBookmark } from 'react-icons/fa';
 const UseServices = () => {
     return (
         <div className="mt-48">
-            <div className="text-center space-y-6 px-10">
-                <h1 className="text-5xl font-bold text-white">How to Use Services on mona-ai.mn</h1>
+            <div className="text-center space-y-6 lg:px-10">
+                <h1 className="text-3xl lg:text-5xl font-bold text-white">How to Use Services on mona-ai.mn</h1>
                 <p className="text-xl font-semibold text-slate-500">MONA Ai services are designed to be user friendly and easy to use for users <br /> of all ages.</p>
             </div>
 
-            <div className="bg-gray-900 text-white py-12">
+            <div className=" text-white py-12">
                 <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
                     {/* Step 1 */}
                     <div className="flex flex-col items-center text-center space-y-4">

@@ -4,7 +4,7 @@ import ToolButton from "./shared/ToolButton";
 const Tools = () => {
     return (
         <div className="space-y-12 mt-10">
-            <h1 className="text-5xl font-semibold text-white text-center">MONA AI: Unleashing 5 Groundbreaking AI Tools</h1>
+            <h1 className="text-2xl lg:text-5xl font-semibold text-white text-center">MONA AI: Unleashing 5 Groundbreaking AI Tools</h1>
 
             <div className="grid grid-cols-1 lg:grid-cols-5 gap-4">
                 <Button text={"Chatroom"} />

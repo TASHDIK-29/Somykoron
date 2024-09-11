@@ -2,11 +2,11 @@ import Button from "./shared/Button";
 
 const Chatroom = () => {
     return (
-        <div className="flex mt-28">
-            <div className="w-3/5 flex justify-center items-center">
-                <div className="flex flex-col items-start justify-start space-y-12 w-3/4 mx-auto">
-                    <h1 className="text-5xl font-semibold text-white">Connect Globally with <br /> AI-Powered Chatroom</h1>
-                    <p className="text-2xl font-semibold text-slate-500">Connect globally with our Chatroom feature, using <br /> AI translation for seamless and meaningful <br /> conversations.</p>
+        <div className="flex flex-col-reverse lg:flex-row mt-28">
+            <div className="lg:w-3/5 flex justify-center items-center">
+                <div className="flex flex-col items-start justify-start space-y-12 lg:w-3/4 mx-auto">
+                    <h1 className="text-3xl lg:text-5xl font-semibold text-white">Connect Globally with <br /> AI-Powered Chatroom</h1>
+                    <p className="text-xl lg:text-2xl font-semibold text-slate-500">Connect globally with our Chatroom feature, using <br /> AI translation for seamless and meaningful <br /> conversations.</p>
 
                     <div className="space-y-7">
                         <div className="flex gap-4">
@@ -22,7 +22,7 @@ const Chatroom = () => {
                     <Button text={"Try it for free"} />
                 </div>
             </div>
-            <div className="w-2/5">
+            <div className="lg:w-2/5">
                 <img src="https://mona-ai.mn/chatroom.png" alt="img" />
             </div>
         </div>

@@ -6,7 +6,7 @@ const Banner = () => {
         <div className="min-h-screen flex flex-col justify-center">
 
             <div className="flex flex-col justify-center">
-                <h1 className="text-center text-7xl font-semibold text-slate-300">
+                <h1 className="text-center text-3xl lg:text-7xl font-semibold text-slate-300">
                     Unlock Global Knowledge with
                     <br />Our <br />
                     <span className="bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-cyan-500">Ai Translation Services</span>
