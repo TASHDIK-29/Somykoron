@@ -1,6 +1,10 @@
 import Banner from "../components/Banner";
 import BannerImg from "../components/BannerImg";
+import Chatroom from "../components/Chatroom";
 import Navbar from "../components/Navbar";
+import Tools from "../components/Tools";
+import UseServices from "../components/UseServices";
+import YouTubeTranslation from "../components/YouTubeTranslation";
 
 const Home = () => {
     return (
@@ -14,6 +18,10 @@ const Home = () => {
                     <Banner />
                 </div>
                 <BannerImg />
+                <Tools />
+                <Chatroom />
+                <UseServices />
+                <YouTubeTranslation />
             </div>
         </>
     );
